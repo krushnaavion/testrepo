@@ -10,6 +10,7 @@ namespace SampleMVCApp.Controllers
     {
         public int MyProperty { get; set; }
         public int MyProperty2 { get; set; }
+        public int MyProperty3 { get; set; }
         public ActionResult Index()
         {
             return View();
