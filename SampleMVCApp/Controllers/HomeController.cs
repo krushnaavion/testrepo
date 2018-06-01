@@ -8,6 +8,7 @@ namespace SampleMVCApp.Controllers
 {
     public class HomeController : Controller
     {
+        public int MyProperty { get; set; }
         public ActionResult Index()
         {
             return View();
